@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="webDM">
+		<classes>
+			<class
+				name="com.dm.dmzad.testcases.WebdmzadHeader_LeftTest" />
+			<class
+				name="com.dm.dmzad.testcases.WebdmzadHeader_RightTest" />
+			<class name="com.dm.dmzad.testcases.WebdmzadFooterTest" />
+			<class name="com.dm.dmzad.testcases.WebdmzadTest" />
+			<class name="com.dm.dmzad.web.gui.pages.DMPage" />
+			<class name="com.qaprosoft.carina.demo.WebSampleTest" />
+		</classes>
+	</test> <!-- webDM -->
+</suite> <!-- Suite -->

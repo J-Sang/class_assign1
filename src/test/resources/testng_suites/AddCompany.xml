@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite verbose="1" name="Carina Demo Tests - Web Sample"
+	parallel="methods">
+
+	<test name="DM Web - ZAD add company Tests">
+		<classes>
+			<class
+				name="com.dm.dmzad.testcases.WebDMZADTest">
+				<methods>
+					<include name="test1_AddCompany" /> 
+					<include name="test2_testCompanyAdded" /> 
+				</methods>
+			</class>			
+		</classes>
+	</test>
+</suite>
